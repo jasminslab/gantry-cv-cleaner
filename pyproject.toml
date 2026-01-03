@@ -1,0 +1,16 @@
+[project]
+name = "gantry-cv-cleaner"
+version = "0.1.0"
+description = "AI-powered gantry system for stable cleaning and real-time object detection."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.4.0",
+    "opencv-python>=4.11.0.86",
+    "pyserial>=3.5",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["software*"]  
+exclude = ["data*", "runs*", "models*", "configs*", "firmware*"]
