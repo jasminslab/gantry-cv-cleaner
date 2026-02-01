@@ -36,8 +36,9 @@ build/
 *.elf
 *.bin
 
-# --- Logs & Performance ---
+# --- Logs, Performance & Config ---
 runs/
 logs/
 *.log
 .tensorboard/
+software/computer_vision/model/poops.yaml
